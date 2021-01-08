@@ -17,5 +17,4 @@ module.exports = async (bot, message) => {
 	if (commandfile) {
 		commandfile.run(bot, message, args);
 	}
-
 }
